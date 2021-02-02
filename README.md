@@ -1,4 +1,4 @@
-## [Devias Kit - Admin Dashboard](https://react-material-dashboard.devias.io/) 
+## [Devias Kit - Admin Dashboard](https://github.com/devias-io/material-kit-react) 
 ## [cornflourblue - react-hooks-redux-registration-login-example](https://github.com/cornflourblue/react-hooks-redux-registration-login-example)
 ## sus login ( Google, Facebook, Microsoft, Kakao ) 
 
