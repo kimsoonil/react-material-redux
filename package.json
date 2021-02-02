@@ -12,7 +12,7 @@
     "dev": "webpack-dev-server -d --config webpack.prod.js",
     "webpack-build": "webpack --config webpack.clean.js",
     "predeploy": "react-scripts build", 
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
