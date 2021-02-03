@@ -12,7 +12,7 @@
     "dev": "webpack-dev-server -d --config webpack.prod.js",
     "webpack-build": "webpack --config webpack.clean.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "env-cmd -f .env.production && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -80,6 +80,5 @@
   "devDependencies": {
     "prettier": "^1.19.1",
     "webpack-cli": "^4.3.1"
-  },
-  "homepage": "https://kimsoonil.github.io/react-material-redux/"
+  }
 }

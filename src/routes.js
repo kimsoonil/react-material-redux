@@ -10,10 +10,10 @@ import NotFoundView from 'src/views/errors/NotFoundView';
 import ProductListView from 'src/views/product/ProductListView';
 import RegisterView from 'src/views/auth/RegisterView';
 import SettingsView from 'src/views/settings/SettingsView';
-
+console.log(`${process.env.REACT_APP_HOST}`)
 const routes = [
   {
-    path: 'app',
+    path: `${process.env.REACT_APP_HOST}app`,
     element: <DashboardLayout />,
     children: [
       { path: 'account', element: <AccountView /> },
@@ -25,7 +25,7 @@ const routes = [
     ]
   },
   {
-    path: '/',
+    path: `${process.env.REACT_APP_HOST}`,
     element: <MainLayout />,
     children: [
       { path: 'login', element: <LoginView /> },
