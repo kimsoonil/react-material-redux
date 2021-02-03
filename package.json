@@ -5,14 +5,14 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "start": "cp ./.env.development ./.env &&react-scripts start",
-    "build": "react-scripts build",
+    "start": "cp ./.env.development ./.env && react-scripts start",
+    "build": "cp ./.env.production ./.env && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "webpack-dev-server -d --config webpack.prod.js",
     "webpack-build": "webpack --config webpack.clean.js",
     "predeploy": "npm run build",
-    "deploy": "cp ./.env.production ./.env && gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
