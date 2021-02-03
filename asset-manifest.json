@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/react-material-redux/static/js/main.987c9984.chunk.js",
-    "main.js.map": "/react-material-redux/static/js/main.987c9984.chunk.js.map",
-    "runtime-main.js": "/react-material-redux/static/js/runtime-main.ee966076.js",
-    "runtime-main.js.map": "/react-material-redux/static/js/runtime-main.ee966076.js.map",
-    "static/css/2.18fb2ca0.chunk.css": "/react-material-redux/static/css/2.18fb2ca0.chunk.css",
-    "static/js/2.2201bff8.chunk.js": "/react-material-redux/static/js/2.2201bff8.chunk.js",
-    "static/js/2.2201bff8.chunk.js.map": "/react-material-redux/static/js/2.2201bff8.chunk.js.map",
-    "index.html": "/react-material-redux/index.html",
-    "precache-manifest.4a6760a1d0f87b2cdf27d843f4c63c45.js": "/react-material-redux/precache-manifest.4a6760a1d0f87b2cdf27d843f4c63c45.js",
-    "service-worker.js": "/react-material-redux/service-worker.js",
-    "static/css/2.18fb2ca0.chunk.css.map": "/react-material-redux/static/css/2.18fb2ca0.chunk.css.map",
-    "static/js/2.2201bff8.chunk.js.LICENSE.txt": "/react-material-redux/static/js/2.2201bff8.chunk.js.LICENSE.txt"
+    "main.js": "/static/js/main.c7f08a52.chunk.js",
+    "main.js.map": "/static/js/main.c7f08a52.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a771f16.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a771f16.js.map",
+    "static/css/2.18fb2ca0.chunk.css": "/static/css/2.18fb2ca0.chunk.css",
+    "static/js/2.063415ab.chunk.js": "/static/js/2.063415ab.chunk.js",
+    "static/js/2.063415ab.chunk.js.map": "/static/js/2.063415ab.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.050d1c0def66b1086f5ed343d2f20c37.js": "/precache-manifest.050d1c0def66b1086f5ed343d2f20c37.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.18fb2ca0.chunk.css.map": "/static/css/2.18fb2ca0.chunk.css.map",
+    "static/js/2.063415ab.chunk.js.LICENSE.txt": "/static/js/2.063415ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee966076.js",
+    "static/js/runtime-main.6a771f16.js",
     "static/css/2.18fb2ca0.chunk.css",
-    "static/js/2.2201bff8.chunk.js",
-    "static/js/main.987c9984.chunk.js"
+    "static/js/2.063415ab.chunk.js",
+    "static/js/main.c7f08a52.chunk.js"
   ]
 }
