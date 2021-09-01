@@ -31,8 +31,9 @@ const routes = [
       { path: 'login', element: <LoginView /> },
       { path: 'register', element: <RegisterView /> },
       { path: '404', element: <NotFoundView /> },
+      { path: 'react-material-redux', element: <LoginView /> },
       { path: '/', element: <Navigate to="/login" /> },
-      { path: '*', element: <Navigate to="/404" /> }
+      { path: '*', element: <Navigate to="/login" /> }
     ]
   }
 ];
